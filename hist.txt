@@ -1,0 +1,33 @@
+    1  git --version
+    2  cd Desktop/GitPracticals/
+    3  ls -a
+    4  git init
+    5  ls -a
+    6  ls -a
+    7  git init
+    8  ls -a
+    9  ls
+   10  echo "# devopsdemo01" >> README.md
+   11  ls
+   12  git  config  --global  user.name  "Jeetu"
+   13  git  config  --global  user.email "jeetu.singh5591@hotmail.com"
+   14  git config user.name
+   15  git config user.email
+   16  git  config  --global  user.email "jitendrastomar5593@gmail.com"
+   17  git config user.email
+   18  git  config  --global  user.email "jeetu.singh5591@hotmail.com"
+   19  git config user.email
+   20  git status
+   21  git add README.md 
+   22  git status
+   23  git commit -m "this is my 1st commit from git bash"
+   24  git branch -M main
+   25  git remote add origin https://github.com/jitendrastomar5593/devopsdemo01.git
+   26  git push -u origin main
+   27  echo "this issss JEETTUUUUU" >> openMe.txt
+   28  git status
+   29  git add .
+   30  git status
+   31  git commit -m "this is my 2nd commit"
+   32  git push
+   33  history > hist.txt
